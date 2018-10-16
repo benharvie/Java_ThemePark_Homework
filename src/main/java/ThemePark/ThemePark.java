@@ -15,4 +15,7 @@ public class ThemePark {
         this.stalls = stalls;
     }
 
+    public void visit(Visitor visitor, Attraction attraction){
+        attraction.addVisitor(visitor);
+    }
 }
