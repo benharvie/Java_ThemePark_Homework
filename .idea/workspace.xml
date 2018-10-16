@@ -120,8 +120,8 @@
       <file leaf-file-name="TestVisitor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+            <state relative-caret-position="435">
+              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#146#147#0" expanded="true" />
@@ -130,6 +130,8 @@
                 <element signature="e#278#279#0" expanded="true" />
                 <element signature="e#391#392#0" expanded="true" />
                 <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -557,7 +559,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestVisitor.hasHeight">
+  <component name="RunManager" selected="JUnit.TestVisitor.hasMoney">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -585,6 +587,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestVisitor" />
       <option name="METHOD_NAME" value="hasHeight" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestVisitor.hasMoney" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThemePark_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestVisitor" />
+      <option name="METHOD_NAME" value="hasMoney" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -636,9 +655,11 @@
     <list>
       <item itemvalue="JUnit.TestVisitor.hasAge" />
       <item itemvalue="JUnit.TestVisitor.hasHeight" />
+      <item itemvalue="JUnit.TestVisitor.hasMoney" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestVisitor.hasMoney" />
         <item itemvalue="JUnit.TestVisitor.hasHeight" />
         <item itemvalue="JUnit.TestVisitor.hasAge" />
       </list>
@@ -660,6 +681,9 @@
   <component name="TestHistory">
     <history-entry file="TestVisitor_hasAge - 2018.10.16 at 20h 46m 02s.xml">
       <configuration name="TestVisitor.hasAge" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestVisitor_hasHeight - 2018.10.16 at 20h 46m 53s.xml">
+      <configuration name="TestVisitor.hasHeight" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -812,8 +836,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        <state relative-caret-position="435">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#146#147#0" expanded="true" />
@@ -822,6 +846,8 @@
             <element signature="e#278#279#0" expanded="true" />
             <element signature="e#391#392#0" expanded="true" />
             <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
           </folding>
         </state>
       </provider>
